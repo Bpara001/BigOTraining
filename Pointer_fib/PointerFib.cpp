@@ -25,7 +25,7 @@ int FibHelper(int n, int *arr){
     return *(arr+n);
 }
 void FibSpace(int fib_value){
-    int *hold =  new int [fib_value+1];
+    int *hold =  new int [fib_value];
     initializer(hold,fib_value+1);
     for(int i=0;i<=fib_value;i++)
     {
@@ -36,7 +36,7 @@ void FibSpace(int fib_value){
 
 int main() {
     int fib_seq;
-    cout<<"Enter Fib Value (int):\0";
+    cout<<"Enter Fib Value (int2):\0";
     cin>>fib_seq;
 
     FibSpace(fib_seq);
