@@ -22,7 +22,7 @@ int FibHelper(int n, int arr[]){
     return arr[n];
 }
 void FibSpace(int fib_value){
-    int hold[fib_value+1];
+    int hold[fib_value];
     initializer(hold,fib_value+1);
     for(int i=0;i<=fib_value;i++)
     {
